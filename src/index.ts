@@ -1,7 +1,7 @@
 import express from "express";
 
 const app = express();
-const PORT = 8081;
+const PORT = 8080;
 
 app.get("/", (_req, res) => {
   res.send("HELLO! Event Bridge listener running");
